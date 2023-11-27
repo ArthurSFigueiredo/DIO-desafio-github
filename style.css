@@ -4,23 +4,22 @@
 }
 
 body {
-    background: papayawhip;
+    background: #323646;
 }
 
 #title {
     font-size: 30px;
     text-align: center;
-    color: darkred;
+    color: #3A71BB;
     margin: 0px;
-    
 }
-
 
 p {
     font-size: 18px;
     font-weight: 400;
     display: inline;
     margin: 0;
+    color: whitesmoke;
 
 }
 
@@ -28,7 +27,7 @@ p {
     font-weight: bold;
     display: inline;
     font-size: 18px;
-    color: darkred;
+    color: #3A71BB;
 }
 
 
@@ -38,7 +37,7 @@ ol li {
 }
 
 li .exemples {
-    border: 3px ridge red;
+    border: 5px ridge white;
     margin: 20px 0 20px 30px;
     display: block;
     width: 600px;
@@ -50,11 +49,12 @@ li .icons {
 }
 
 li .exemple-especific {
-    border: 3px ridge red;
+    border: 5px ridge white;
     display: block;
     margin: 20px 0 20px 30px;
 }
-#acknowledgment p{
+
+#acknowledgment p {
     float: right;
     font-weight: bolder;
     font-size: 20px;
