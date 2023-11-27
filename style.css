@@ -1,0 +1,59 @@
+/*personalization fonts,backgronds and sizes */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: papayawhip;
+}
+
+#title {
+    font-size: 30px;
+    text-align: left;
+    color: darkred;
+}
+
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    display: inline;
+    margin: 0;
+
+}
+
+.topic {
+    font-weight: bold;
+    display: inline;
+    font-size: 18px;
+    color: darkred;
+}
+
+
+/* Icons,images, numbers and ordered list */
+ol li {
+    list-style-type: none;
+}
+
+li .exemples {
+    border: 3px ridge red;
+    margin: 20px 0 20px 30px;
+    display: block;
+    width: 600px;
+}
+
+li .icons {
+    display: inline;
+    margin: 0 0 -5px 0;
+}
+
+li .exemple-especific {
+    width: 600px;
+    border: 3px ridge red;
+    display: inline;
+    margin: 20px 0 20px 30px;
+}
+
+#acknowledgment {
+    text-align: right;
+}
